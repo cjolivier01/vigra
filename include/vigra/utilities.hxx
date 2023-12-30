@@ -209,12 +209,12 @@ struct FinallyImpl
 
 namespace std {
 
-template <class T1, class T2>
-ostream & operator<<(ostream & s, std::pair<T1, T2> const & p)
-{
-    s << "(" << p.first << ", " << p.second << ")";
-    return s;
-}
+//template <class T1, class T2>
+//ostream & operator<<(ostream & s, std::pair<T1, T2> const & p)
+//{
+//    s << "(" << p.first << ", " << p.second << ")";
+//    return s;
+//}
 
 }
 
